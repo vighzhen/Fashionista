@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Fashionista
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.100.96.192:3306/fashionista
+    username: root
+    password: fz2004
+mybatis-plus:
+  global-config:
+    db-config:
+      column-underline: true
