@@ -10,18 +10,9 @@ import com.vighzhen.fashionista.common.ResultUtils;
 import com.vighzhen.fashionista.mapper.UserMapper;
 import com.vighzhen.fashionista.models.User;
 import com.vighzhen.fashionista.service.UserService;
-import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import javax.swing.text.html.Option;
-import javax.xml.transform.Result;
-import java.sql.Date;
-import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/user")
